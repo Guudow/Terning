@@ -30,5 +30,6 @@ public class UseDice {
 		keyboard.close();            // Close the scanner
 
 		//Hej alle sammen
+		//lalal
 	}
 }
