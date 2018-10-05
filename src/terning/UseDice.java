@@ -31,5 +31,7 @@ public class UseDice {
 
 		//Hej alle sammen
 		//lalal
+
+		//hallo hvorfor er vand ikk gratis
 	}
 }
