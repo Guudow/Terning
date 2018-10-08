@@ -28,10 +28,5 @@ public class UseDice {
 		int n = keyboard.nextInt();  // Read integer
 		cup.rollMultiple(n);         // Roll the dice n times
 		keyboard.close();            // Close the scanner
-
-		//Hej alle sammen
-		//lalal
-
-		//hallo hvorfor er vand ikk gratis
 	}
 }
