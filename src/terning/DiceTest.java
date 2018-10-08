@@ -51,7 +51,23 @@ public class DiceTest {
             }
         }
 
-        System.out.println(en + "\n" + to + "\n" + tre + "\n" + fire + "\n" + fem + "\n" + seks);
+        assertTrue("Der er for få 1'ere " + en, en > 9600);
+        assertTrue("Der er for mange 1'ere " + en, en > 10400);
+
+        assertTrue("Der er for få 2'ere " + to, to > 9600);
+        assertTrue("Der er for mange 2'ere " + to, to > 10400);
+
+        assertTrue("Der er for få 3'ere " + tre, tre > 9600);
+        assertTrue("Der er for mange 3'ere " + tre, tre > 10400);
+
+        assertTrue("Der er for få 4'ere " + fire, fire > 9600);
+        assertTrue("Der er for mange 4'ere " + fire, fire > 10400);
+
+        assertTrue("Der er for få 5'ere " + fem, fem > 9600);
+        assertTrue("Der er for mange 5'ere " + fem, fem > 10400);
+
+        assertTrue("Der er for få 6'ere " + seks, seks > 9600);
+        assertTrue("Der er for mange 6'ere " + seks, seks > 10400);
 
     }
 }
